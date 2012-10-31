@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'hashlib-win' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.11
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\Dopemaster\package.json
+6 verbose read json C:\Users\Dopemaster\node_modules\canvas-win\package.json
+7 verbose read json C:\Users\Dopemaster\node_modules\express\package.json
+8 verbose read json C:\Users\Dopemaster\node_modules\fs\package.json
+9 verbose read json C:\Users\Dopemaster\node_modules\http\package.json
+10 verbose read json C:\Users\Dopemaster\node_modules\mysql\package.json
+11 verbose read json C:\Users\Dopemaster\node_modules\node-gyp\package.json
+12 verbose read json C:\Users\Dopemaster\node_modules\node-static\package.json
+13 verbose read json C:\Users\Dopemaster\node_modules\require\package.json
+14 verbose read json C:\Users\Dopemaster\node_modules\requirejs\package.json
+15 verbose read json C:\Users\Dopemaster\node_modules\socket.io\package.json
+16 verbose read json C:\Users\Dopemaster\package.json
+17 verbose cache add [ 'hashlib-win', null ]
+18 silly cache add name=undefined spec="hashlib-win" args=["hashlib-win",null]
+19 verbose parsed url { pathname: 'hashlib-win',
+19 verbose parsed url   path: 'hashlib-win',
+19 verbose parsed url   href: 'hashlib-win' }
+20 silly lockFile 038fcf1d-hashlib-win hashlib-win
+21 verbose lock hashlib-win C:\Users\Dopemaster\AppData\Roaming\npm-cache\038fcf1d-hashlib-win.lock
+22 silly lockFile 038fcf1d-hashlib-win hashlib-win
+23 verbose addNamed [ 'hashlib-win', '' ]
+24 verbose addNamed [ null, '' ]
+25 silly lockFile 2fce6445-hashlib-win hashlib-win@
+26 verbose lock hashlib-win@ C:\Users\Dopemaster\AppData\Roaming\npm-cache\2fce6445-hashlib-win.lock
+27 silly addNameRange { name: 'hashlib-win', range: '', hasData: false }
+28 verbose url raw hashlib-win
+29 verbose url resolving [ 'https://registry.npmjs.org/', './hashlib-win' ]
+30 verbose url resolved https://registry.npmjs.org/hashlib-win
+31 info trying registry request attempt 1 at 20:27:10
+32 http GET https://registry.npmjs.org/hashlib-win
+33 http 404 https://registry.npmjs.org/hashlib-win
+34 silly registry.get cb [ 404,
+34 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+34 silly registry.get     date: 'Sun, 21 Oct 2012 01:27:11 GMT',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'content-length': '52',
+34 silly registry.get     'cache-control': 'must-revalidate' } ]
+35 silly lockFile 2fce6445-hashlib-win hashlib-win@
+36 error 404 'hashlib-win' is not in the npm registry.
+36 error 404 You should bug the author to publish it
+36 error 404
+36 error 404 Note that you can also install from a
+36 error 404 tarball, folder, or http url, or git url.
+37 error System Windows_NT 6.1.7601
+38 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "hashlib-win"
+39 error cwd C:\Users\Dopemaster\git\sample-node\fb-apps
+40 error node -v v0.8.11
+41 error npm -v 1.1.62
+42 error code E404
+43 verbose exit [ 1, true ]
